@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Travels</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/lightbox.min.css">
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+    <link rel="stylesheet" href="css/media-query.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="banner">
+            <header>
+                <div class="container">
+                    <div class="logo">
+                        <img src="images/logo.png" alt="logo">
+                    </div>
+                    <nav>
+                        <ul>
+                            <li><a href="#about">ABOUT</a></li>
+                            <li><a href="#service">SERVICE</a></li>
+                            <li><a href="#destination">DESTINATION</a></li>
+                            <li><a href="#package">PACKAGE</a></li>
+                            <li><a href="#blog">BLOG</a></li>
+                            <li><a href="#footer">CONTACT</a></li>
+                        </ul>
+                    </nav>
+                    <div class="toggle-btn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+                <div class="toggle-nav">
+                    <div class="close-button">
+                        <div class="bar"></div>
+                    </div>
+                    <ul>
+                        <li><a href="#about">ABOUT</a></li>
+                        <li><a href="#service">SERVICE</a></li>
+                        <li><a href="#destination">DESTINATION</a></li>
+                        <li><a href="#package">PACKAGE</a></li>
+                        <li><a href="#blog">BLOG</a></li>
+                        <li><a href="#footer">CONTACT</a></li>
+                    </ul>
+                </div>
+            </header>
+            <div class="banner-text">
+                <div class="container">
+                    <h2>FEEL FREE TO</h2>
+                    <h1>EXPLORE <br>
+                        THE CITY OF JOY
+                    </h1>
+                    <div class="discover">
+                        <a href="#">
+                        <p>DISCOVER</p>
+                        <img src="images/right-arrow.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="booking">
+            <div class="container">
+                <div class="booking-boxes">
+                    <div class="section-button">
+                        <div class="booking-section active" data-id="0">
+                            <h3>HOTELS</h3>
+                        </div>
+                        <div class="booking-section" data-id="1">
+                            <h3>FLIGHTS</h3>
+                        </div>
+                    </div>
+                    <div class="book">
+                        <div class="search active">
+                            <div class="booking-detail">
+                                <div class="booking-input">
+                                    <div class="input-icon">
+                                        <img src="images/booking-1.png" alt="booking-1">
+                                    </div>
+                                    <div class="input-box">
+                                        <input type="text" placeholder="Location">
+                                    </div>
+                                </div>
+                                <div class="booking-input">
+                                    <div class="input-icon">
+                                        <img src="images/booking-2.png" alt="booking-2">
+                                    </div>
+                                    <div class="input-box">
+                                        <input type="text" placeholder="Check In">
+                                    </div>
+                                </div>
+                                <div class="booking-input">
+                                    <div class="input-icon">
+                                        <img src="images/booking-2.png" alt="booking-2">
+                                    </div>
+                                    <div class="input-box">
+                                        <input type="text" placeholder="Check Out">
+                                    </div>
+                                </div>
+                                <div class="booking-input">
+                                    <div class="input-icon">
+                                        <img src="images/booking-1.png" alt="booking-1">
+                                    </div>
+                                    <div class="input-box">
+                                        <input type="text" placeholder="Room">
+                                    </div>
+                                </div>
+                                <div class="booking-input">
+                                    <div class="input-icon">
+                                        <img src="images/booking-3.png" alt="booking-3">
+                                    </div>
+                                    <div class="input-box">
+                                        <input type="text" placeholder="Members">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="budget">
+                                <h3 class="range-value"></h3>
+                                <div class="budget-meter">
+                                    <h2>Budget Now : </h2>
+                                    <input type="range" min="51" max="1000" value="100" class="range" data-id="0">
+                                </div>
+                            </div>
+                            <div class="budget-submit">
+                                <button>SEARCH NOW</button>
+                            </div>
+                        </div>
+
+                        <div class="search">
+                            <div class="booking-detail">
+                                <div class="booking-input">
+                                    <div class="input-icon">
+                                        <img src="images/booking-2.png" alt="booking-2">
+                                    </div>
+                                    <div class="input-box">
+                                        <input type="text" placeholder="Departure">
+                                    </div>
+                                </div>
+                                <div class="booking-input">
+                                    <div class="input-icon">
+                                        <img src="images/booking-1.png" alt="booking-1">
+                                    </div>
+                                    <div class="input-box">
+                                        <input type="text" placeholder="From">
+                                    </div>
+                                </div>
+                                <div class="booking-input">
+                                    <div class="input-icon">
+                                        <img src="images/booking-1.png" alt="booking-1">
+                                    </div>
+                                    <div class="input-box">
+                                        <input type="text" placeholder="Destination">
+                                    </div>
+                                </div>
+                                <div class="booking-input">
+                                    <div class="input-icon">
+                                        <img src="images/booking-3.png" alt="booking-3">
+                                    </div>
+                                    <div class="input-box">
+                                        <input type="text" placeholder="Number of People">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="budget">
+                                <h3 class="range-value"></h3>
+                                <div class="budget-meter">
+                                    <h2>Budget Now : </h2>
+                                    <input type="range" min="51" max="500" value="100" class="range" data-id="1">
+                                </div>
+                            </div>
+                            <div class="budget-submit">
+                                <button>SEARCH NOW</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>  
+        </div>
+        <div class="welcome">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-xl-3">
+                        <div class="welcome-greeting">
+                            <h2>Welcome To
+                                <br><span>Memory Travels</span>
+                            </h2>
+                        </div>
+                    </div>
+                   <div class="col-lg-6 col-xl-6">
+                    <div class="welcome-message">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            eiusmod tempor incididunt ut labore et dolore. sit amet. </p>
+                           
+                    </div>
+                   </div>
+                   <div class="col-lg-3 col-xl-3">
+                    <div class="welcome-button">
+                        <button>Learn More</button>
+                    </div>
+                   </div>
+                 
+                </div>
+            </div>
+        </div>
+        <div class="about" id="about">
+            <div class="about-row">
+                <div class="about-image">
+                    <img src="images/about-bg.png" alt="about-image">
+                </div>
+                    <div class="about-text">
+                        <h2>About Us</h2>
+                        <p>Lorem ipsum dolor sit amet, eiusmod tempor incididunt ut labore et dolore magna consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. ipsum suspendisse ultrices gravida. 
+                            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labor.</p>
+                        <div class="about-icons">
+                            <img src="images/about-icon-1.png" alt="facebook">
+                            <img src="images/about-icon-2.png" alt="twitter">
+                            <img src="images/about-icon-3.png" alt="instagram">
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <div class="services" id="service">
+            <div class="container">
+                <div class="section-heading">
+                    <h2>Our <span>Services</span></h2>
+                <!-- <img src="images/heading-dash.png" alt="dash"> -->
+                </div>
+                <div class="service-row">
+                    <div class="service-item">
+                        <div class="service-icon">
+                            <img src="images/service-icon-1.png" alt="serv-icon-1">
+                        </div>
+                        <div class="service-text">
+                            <h3>ACCOMMODATION</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor didunt ut. dolor sit amet</p>
+                        </div>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-icon">
+                            <img src="images/service-icon-4.png" alt="serv-icon-4">
+                        </div>
+                        <div class="service-text">
+                            <h3>EASY TRIP PLANNING</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor didunt ut. dolor sit amet</p>
+                        </div>
+                    </div>
+                
+                    <div class="service-item">
+                        <div class="service-icon">
+                            <img src="images/service-icon-2.png" alt="serv-icon-2">
+                        </div>
+                        <div class="service-text">
+                            <h3>TRANSPORTATION</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor didunt ut. dolor sit amet</p>
+                        </div>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-icon">
+                            <img src="images/service-icon-5.png" alt="serv-icon-5">
+                        </div>
+                        <div class="service-text">
+                            <h3>BEST QUALITY FOOD</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor didunt ut. dolor sit amet</p>
+                        </div>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-icon">
+                            <img src="images/service-icon-3.png" alt="serv-icon-3">
+                        </div>
+                        <div class="service-text">
+                            <h3>SEASONED AGENT</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor didunt ut. dolor sit amet</p>
+                        </div>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-icon" id="sight-seeing">
+                            <img src="images/service-icon-6.png" alt="serv-icon-6">
+                        </div>
+                        <div class="service-text">
+                            <h3>SIGHT SEEING</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor didunt ut. dolor sit amet</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="stats-section">
+            <div class="container">
+                <div class="stats-row">
+                    <div class="stats-text">
+                        <h2 class="stats-number" data-count="30">0</h2>
+                        <h3>YEARS OF
+                            EXPERIENCE
+                        </h3>
+                    </div>
+                    <div class="stats-text">
+                        <h2 class="stats-number" data-count="500">0</h2>
+                        <h3>SATISFIED
+                            CUSTOMERS
+                        </h3>
+                    </div>
+                    <div class="stats-text" id="agent">
+                        <h2 class="stats-number" data-count="40">0</h2>
+                        <h3>DIFFERENT <br>
+                        AGENTS
+                        </h3>
+                    </div>
+                    <div class="stats-text">
+                        <h2 class="stats-number" data-count="50">0</h2>
+                        <h3 id="fourth-stat-text">TYPES OF
+                            INSURANCE
+                        </h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="destination" id="destination">
+            <div class="container">
+                <div class="section-heading">
+                    <h2>Top <span>Destinations</span></h2>
+                </div>
+                    <ul class="gallery-row">
+                        <li class="g-1">
+                            <a href="images/gallery-1-big.jpg" data-lightbox="mygallery" data-title="Bishwa-Bangla"><img src="images/gallery-1.png" alt="bishwa-bangla"></a>
+                            <a href="images/gallery-portrait-big.jpg" data-lightbox="mygallery" data-title="Giant-Clock"><img id="portrait-img" src="images/gallery-portrait.png" alt="Giant-Clock"></a>
+                        </li>
+                        <li class="g-2">
+                            <a href="images/gallery-2-big.jpg" data-lightbox="mygallery" data-title="Eden-Gardens"><img src="images/gallery-2.png" alt="Eden-Gardens"></a>
+                            <a href="images/gallery-4-big.jpg" data-lightbox="mygallery" data-title="Shyambazaar"><img src="images/gallery-4.png" alt="Shyambazaar"></a>
+                            <a href="images/gallery-6-big.jpg" data-lightbox="mygallery" data-title="Howrah-Bridge"><img src="images/gallery-6.png" alt="Howrah-Bridge"></a>
+                        </li>
+                        <li class="g-3">
+                            <a href="images/gallery-3-big.jpg" data-lightbox="mygallery" data-title="Birla-Planetarium"><img src="images/gallery-3.png" alt="Birla-Planetarium"></a>
+                            <a href="images/gallery-5-big.jpg" data-lightbox="mygallery" data-title="Metropolitan-Building"><img src="images/gallery-5.png" alt="Metropolitan-Building"></a>
+                            <a href="images/gallery-7-big.jpg" data-lightbox="mygallery" data-title="National-Library"><img src="images/gallery-7.png" alt="National-Library"></a>
+                        </li>
+                       
+                        
+                      
+    
+                    </ul>
+                   
+
+                   
+                <div class="gallery-button">
+                    <button>VIEW MORE</button>
+                </div>
+            </div>
+        </div>
+        <div class="packages" id="package">
+            <div class="container">
+                <div class="section-heading">
+                    <h2>Our <span>Packages</span></h2>
+                </div>
+                <div class="packages-row">
+                    <div class="package-item">
+                        <img src="images/package-img-1.png" alt="silver">
+                        <h4>SILVER</h4>
+                        <h3>$250</h3>
+                        <p>3 Nights</p>
+                        <p>4 Days</p>
+                        <p>4 Sight Seeing</p>
+                        <button>Book Now</button>
+                    </div>
+                    <div class="package-item">
+                        <img src="images/package-img-2.png" alt="gold">
+                        <h4>GOLD</h4>
+                        <h3>$500</h3>
+                        <p>5 Nights</p>
+                        <p>6 Days</p>
+                        <p>6 Sight Seeing</p>
+                        <button>Book Now</button>
+                    </div>
+                    <div class="package-item">
+                        <img src="images/package-img-3.png" alt="diamond">
+                        <h4>DIAMOND</h4>
+                        <h3>$1000</h3>
+                        <p>7 Nights</p>
+                        <p>8 Days</p>
+                        <p>8 Sight Seeing</p>
+                        <button>Book Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="blog" id="blog">
+            <div class="container">
+                <div class="section-heading">
+                    <h2>Latest <span>Blogs</span></h2>
+                <!-- <img src="images/heading-dash.png" alt="dash"> -->
+                </div>
+                <div class="blog-row">
+                    <div class="blog-item">
+                        <img src="images/blog-img-1.png" alt="blog-1">
+                        <h4>23rd March 2021</h4>
+                        <h3>Lorem ipsum dolor</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor aliqua. ultrices gravida. 
+                            Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+                            <h5>READ MORE <span><img src="images/right-arrow-small.png" id="blog-arrow" alt="right-arrow-small"></span></h5>
+                    </div>
+                    <div class="blog-item">
+                        <img src="images/blog-img-2.png" alt="blog-2">
+                        <h4>10th June 2021</h4>
+                        <h3>Lorem ipsum dolor</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor aliqua. ultrices gravida. 
+                            Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+                            <h5>READ MORE <span><img src="images/right-arrow-small.png" id="blog-arrow" alt="right-arrow-small"></span></h5>
+                    </div>
+                    <div class="blog-item">
+                        <img src="images/blog-img-3.png" alt="blog-3">
+                        <h4>8th July 2021</h4>
+                        <h3>Lorem ipsum dolor</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor aliqua. ultrices gravida. 
+                            Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+                        <h5>READ MORE <span><img src="images/right-arrow-small.png" id="blog-arrow" alt="right-arrow-small"></span></h5>     
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="testimonials">
+            <div class="container">
+                <div class="section-heading">
+                    <h2>Client <span>Testimonials</span></h2>
+                <!-- <img src="images/heading-dash.png" alt="dash"> -->
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  ut 
+                     labore et dolore magna aliqua. Quis ipsum suspendisse ultrices  </p>
+                <div class="reviews">
+                    <div class="client-review">
+                     <p id="client-name">Emily Brown</p>
+                     <p id="client-place">Manchester</p>
+                    </div>
+                   <div class="client-review active">
+                    <p id="client-name">Kevin Kay</p>
+                    <p id="client-place">New York</p>
+                   </div>
+                   <div class="client-review">
+                    <p id="client-name">Philip Jones</p>
+                    <p id="client-place">Washington DC</p>
+                   </div>
+                    
+                </div>
+                <div class="clients">
+                    <img src="images/client-1.png" data-id="0" alt="client-1">
+                    <img src="images/client-2.png" data-id="1" class="active" alt="client-2">
+                    <img src="images/client-3.png" data-id="2" alt="client-3">
+                </div>
+            </div>
+        </div>
+        <div class="travel-inspiration">
+            <div class="container">
+                <div class="section-heading">
+                    <h2>Travel <span>Inspiration</span></h2>
+                <!-- <img src="images/heading-dash.png" alt="dash"> -->
+                </div>
+                <div class="travel-row">
+                    <div class="travel-item">
+                        <img src="images/travel-1.png" alt="travel-inspiration-1">
+                        <p>ROAD TRIPS</p>
+                        <p>TIPS & TRICKS</p>
+                        <h4>Why You Should Visit Kolkata</h4>
+                    </div>
+                    <div class="travel-item">
+                        <img src="images/travel-2.png" alt="travel-inspiration-2">
+                        <p>RIVERS</p>
+                        <p>TAKE A BREAK</p>
+                        <h4>The Magic Of a Souvenir Finding You</h4>
+                    </div>
+                    <div class="travel-item">
+                        <img src="images/travel-3.png" alt="travel-inspiration-3">
+                        <p>ADVENTURE</p>
+                        <p>FREE YOURSELF</p>
+                        <h4>The Feeling Of Wind Touching Your Face</h4>
+                    </div>
+                </div>
+                <div class="travel-button">
+                    <button>View More</button>
+                </div>
+            </div>
+        </div>
+        <footer id="footer">
+            <div class="container">
+                <div class="footer-row">
+                    <div class="footer-item">
+                        <img src="images/mail-icon.png" alt="mail-icon"><h3>Subscribe Our Newsletter</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                            labore et dolore magna aliqua. Quis ipsum  </p>
+                        <input type="text" placeholder="Enter Your Email">
+                        <button>SUBSCRIBE</button>
+                    </div>
+                    <div class="footer-item">
+                        <h3>Company</h3>
+                        <p> <a href="#about"> About Us </a> <br>
+                           <a href="#destination"> Trips </a><br>
+                           <a href="#package">Packages</a> <br>
+                           <a href="#">Partner</a> </p>
+                    </div>
+                    <div class="footer-item">
+                        <h3>Support</h3>
+                        <p> <a href="#"> Get In Touch </a> <br>
+                           <a href="#"> Help Center </a><br>
+                           <a href="#">Live Chat</a> <br>
+                           <a href="#">How It Works</a> </p>
+                    </div>
+                    <div class="footer-item">
+                        <h3>Contact</h3>
+                        <p> Email : support@thedreamtravels.com <br>
+                            Phone : +91 334 512 395 <br>
+                             </p>
+                             <p> Address : BP Block, Sector V, Bidhannagar,
+                                West Bengal 700091</p>
+                        <img src="images/social-icon-1.png" alt="facebook">
+                        <img src="images/social-icon-2.png" alt="twitter">
+                        <img src="images/social-icon-3.png" alt="pinterest">
+                        <img src="images/social-icon-4.png" alt="instagram">
+                    </div>
+                </div>
+            </div>
+            <div class="sub-footer">
+                <div class="container">
+                    <div class="sub-footer-row">
+                        <div class="footer-logo">
+                            <img src="images/footer-logo.png" alt="logo">
+                        </div>
+                        <div class="sub-footer-text">
+                            <h3>Copyright &copy; 2021 The Memory Travels | Designed By Rishi Ghosh</h3>
+                        </div>
+                    </div>
+                   
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="js/lightbox-plus-jquery.min.js"></script>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
